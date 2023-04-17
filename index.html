@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Lee Cheng Zhan's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <script type="text/javascript" src="JavaScript/about.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Cheng Zhan <br> Lee</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>
+                    Hi, I am Lee<span><br>Cheng Zhan</span> From Malaysia
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Portrait.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am Lee Cheng Zhan, 23 years old, a Malaysian citizen. Graduate in a mathematics major course and have over 1 Year of experience as a software developer in the financial industry. 
+                        An Inquisitive, energetic person with a strong foundation in math and logic. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                        <p class="tab-links">Experience</p>
+                        <p class="tab-links">Education</p>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend</span><br>Java, Spring Boot, Vert.x, Hibernate, JSP, Liferay, Maven</li>
+                            <li><span>Frontend</span><br>HTML, CSS, JavaScript, Ajax, jQuery, Bootstrap</li>
+                            <li><span>Database/Search Engine</span><br>MySQL, DB2, ELK Stack</li>
+                            <li><span>CI/CD</span><br>Docker, Openshift, Putty, Git</li>
+                            <li><span>Ohter Tools</span><br>Jaspersoft, Insomnia</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Present</span><br>Software Developer at AceAtt Sdn.Bhd</li>
+                            <li><span>2018-2021</span><br>Part Time Promoter & Salesman at Synmax Event & Jasler Enterprise Sdn.Bhd</li>
+                            <li><span>2013-2020</span><br>24 Festival Drummers at JB Drum</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br>Bachelor of Science in Mathematics with Computing from Tunku Abdul Rahman University College</li>
+                            <li><span>2018-2019</span><br>Foundation in Science from Tunku Abdul Rahman University College</li>
+                            <li><span>2013-2017</span><br>SMK Taman Desa Skudai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- Idea 
+
+1. 加入我的fyp
+
+-->
