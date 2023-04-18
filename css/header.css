@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(/root/images/Portrait_Landscape3_NoBackground.png);
+    background-image: url(Portrait_Landscape3_NoBackground.png);
     background-size: cover;
     background-position: center;
 } 
@@ -36,6 +36,11 @@ nav{
 
 .logo{
     font-size: 22px;
+
+}
+
+.logo i{
+    margin-right: 5px;
 }
 
 nav ul li{
