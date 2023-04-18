@@ -6,21 +6,26 @@
     <title>Lee Cheng Zhan's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
     <script type="text/javascript" src="javascript/about.js"></script>
+    <script type="text/javascript" src="javascript/portfolio.js"></script>
     <script type="text/javascript" src="javascript/jquery-3.6.4.min.js"></script>
+    <script src="https://kit.fontawesome.com/a3dc826b75.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
+        <nav>
+            <!-- <a href="#" class="logo">Cheng Zhan Lee</a> -->
+            <a href="#" class="logo"><i class="fa-sharp fa-solid fa-c fa-lg" style="color: #ffffff;"></i> <i class="fa-sharp fa-solid fa-z fa-lg" style="color: #ffffff;"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="container">
-            <nav>
-                <a href="#" class="logo">Cheng Zhan <br> Lee</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
             <div class="header-text">
                 <p>Software Developer</p>
                 <h1>
@@ -29,7 +34,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -78,8 +83,59 @@
             </div>
         </div>
     </div>
+    <div id="myPortfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="portfolio-list">
+                <div class="portfolio">
+                    <img src="images/Portrait2.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>Self-made portfolio</p>
+                        <a href="#"><i class="fa-solid fa-link" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="images/Portfolio_FYP.png">
+                    <div class="layer">
+                        <h3>Final Year Project</h3>
+                        <p>Game theory in baseball</p>
+                        <div class="row2">
+                            <a href="#"><i class="fa-solid fa-link" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-solid fa-download" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="images/Portfolio_Assignmnet.jpg">
+                    <div class="layer">
+                        <h3>University Assignment</h3>
+                        <p>Assignment portfolio</p>
+                        <a href="#"><i class="fa-solid fa-link" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="seeMorebtn">See More</a>
+        </div>
+    </div>
 </body>
-
+    <div id="contact">
+        <div class="container2">
+            <h1 class="sub-title">Contact</h1>
+            <div class="row3">
+                <a href="#"><i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i></a>
+                <P>leechengzhan7@gmail.com</P>
+                <a href="#"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+                <P>+6018-3221917</P>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </html>
 
 <!-- Idea 

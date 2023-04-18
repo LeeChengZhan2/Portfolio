@@ -7,14 +7,16 @@
 
 body{
     /* background-image: linear-gradient(to left bottom, #61BFAD, #F9F7E8); */
+    /* background: #F9F7E8;
+    color: #167C80 */
     background: #F9F7E8;
-    color: #167C80
+    color: #000000
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    /* background-image: url(images/Portrait.png); */
+    background-image: url(/images/Portrait_Landscape3_NoBackground.png);
     background-size: cover;
     background-position: center;
 } 
@@ -24,18 +26,16 @@ body{
 }
 
 nav{
+    padding: 5px 6%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background: #000000;
 }
 
 .logo{
-    width: 200px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #167C80 ;
-    text-decoration: none;
+    font-size: 22px;
 }
 
 nav ul li{
@@ -45,7 +45,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #167C80;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -56,7 +56,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #313838;
+    background: #f44149;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -68,7 +68,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 38%;
+    margin-top: 35%;
     font-size: 30px;
 }
 
@@ -79,5 +79,5 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #313838  
+    color: #5a76a7  
 }
