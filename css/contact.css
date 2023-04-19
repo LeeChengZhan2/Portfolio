@@ -23,5 +23,37 @@
 }
 
 .row3 a{
+    color: #ffffff;
     margin-right: 10px;
+    transition: transform 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.row3 a:hover{
+    color: #f44149;
+    transform: translateY(-8px);
+}
+
+.social-icons a{
+    margin-right: 20px;
+}
+
+.downloadCVBtn{
+    font-size: 17px;
+    display: block;
+    width: fit-content;
+    border: 1px solid #f44149;
+    margin-left: 800px;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    background:#000000;
+    transition: background 0.3s;
+}
+
+.downloadCVBtn:hover{
+    background: #f44149;
+    cursor: pointer;
 }

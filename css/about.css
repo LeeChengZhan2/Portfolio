@@ -19,6 +19,8 @@
 
 .about-col-2{
     flex-basis: 60%;
+    /* border-radius: 15px;
+    background: #5a76a7; */
 }
 
 .sub-title{
@@ -28,7 +30,7 @@
 }
 
 .about-col-2 p{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .tab-titles{
@@ -37,13 +39,12 @@
 }
 
 .tab-titles p{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .tab-links{
     margin-right: 50px;
-    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
     position: relative;
@@ -53,7 +54,7 @@
     content: '';
     width: 0;
     height: 3px;
-    background: #5a76a7;
+    background: #f44149;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -71,8 +72,8 @@
 }
 
 .tab-contents ul li span{
-    color: #f44149;
-    font-size: 17px;
+    color: #5a76a7;
+    font-size: 16px;
 }
 
 .tab-contents{

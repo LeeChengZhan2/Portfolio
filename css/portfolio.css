@@ -58,6 +58,7 @@
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    cursor: pointer;
 }
 
 .row2{
@@ -80,6 +81,7 @@
 }
 
 .seeMorebtn{
+    font-size: 15px;
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -88,7 +90,7 @@
     border-radius: 6px;
     text-decoration: none;
     color: #000;
-    transition: background 0.5s;
+    transition: background 0.3s;
 }
 
 .seeMorebtn:hover{

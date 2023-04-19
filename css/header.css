@@ -26,12 +26,18 @@ body{
 }
 
 nav{
-    padding: 5px 6%;
+    padding: 3px 6%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 999;
 }
 
 .logo{
