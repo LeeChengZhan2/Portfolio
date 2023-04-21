@@ -9,21 +9,25 @@
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script type="text/javascript" src="javascript/header.js"></script>
     <script type="text/javascript" src="javascript/about.js"></script>
     <script type="text/javascript" src="javascript/contact.js"></script>
+    <script type="text/javascript" src="javascript/myPortfolio.js"></script>
     <script type="text/javascript" src="javascript/jquery-3.6.4.min.js"></script>
     <script src="https://kit.fontawesome.com/a3dc826b75.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <nav>
-            <a href="#" class="logo"><i class="fa-sharp fa-solid fa-c fa-lg" style="color: #ffffff;"></i><i class="fa-sharp fa-solid fa-z fa-lg" style="color: #ffffff;"></i></a>
-            <ul>
+            <a href="#" class="logo"><i class="fa-sharp fa-solid fa-c fa-lg"></i><i class="fa-sharp fa-solid fa-z fa-lg" style="color: #ffffff;"></i></a>
+            <ul id="sidemenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#myPortfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-sharp fa-solid fa-xmark fa-lg" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-sharp fa-solid fa-bars fa-lg" onclick="openmenu()"></i>
         </nav>
         <div class="container">
             <div class="header-text">
@@ -107,7 +111,9 @@
                     <img src="images/Portfolio_FYP.png">
                     <div class="layer">
                         <h3>Final Year Project</h3>
-                        <p>Game theory in baseball</p>
+                        <p>The objective of this project is help to the team and player achieve better pitch and bat results by finding the best strategy. In this project, 
+                            we will be modelling the situation by two-player games with finite games and the strategies for batter is swing and no-swing and the strategies for pitcher is pitch a goodball or badball. 
+                            After determine each player's payoff, we simulate the game in python by using the loop function. The results of this project may not be the same as those in real life due to the payoff matrix of each player are hard to decide</p>
                         <div class="row2">
                             <a href="https://eprints.tarc.edu.my/22481/" target="_blank"><i class="fa-solid fa-link" style="color: #000000;"></i></a>
                             <a onclick="downloadFYP()"><i class="fa-solid fa-download" style="color: #000000;"></i></a>
@@ -143,6 +149,10 @@
                 </div>
                 <button onclick="downloadCV()" class="downloadCVBtn">Download CV</button>
             </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Lee Cheng Zhan</p>
         </div>
     </div>
 </html>

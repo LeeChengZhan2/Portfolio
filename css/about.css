@@ -83,3 +83,45 @@
 .tab-contents.active-tab{
     display: block;
 }
+
+@media only screen and (max-device-width: 600px){
+    #about{
+        padding: 40px 0;
+    }
+    .about-col-1{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-col-1 img{
+        width: 70%;
+        border-radius: 15px;
+        padding-bottom: 40px;
+    }
+    .sub-title{
+        font-size: 60px;
+        font-weight: 600;
+        color: #000000
+    }
+    .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-2 p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .tab-titles{
+        display: flex;
+        margin: 30px 0 30px;
+    }
+    .tab-titles p{
+        font-size: 30px;
+    }
+    .tab-contents ul li{
+        font-size: 14px;
+    }
+    .tab-contents ul li span{
+        font-size: 14px;
+    }
+}

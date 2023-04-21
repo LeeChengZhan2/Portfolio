@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(Portrait_Landscape3_NoBackground.png);
+    background-image: url(Landscape_NoBackground.png);
     background-size: cover;
     background-position: center;
 } 
@@ -47,6 +47,10 @@ nav{
 
 .logo i{
     margin-right: 5px;
+}
+
+nav i{
+    color:#ffffff
 }
 
 nav ul li{
@@ -91,4 +95,57 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: #5a76a7  
+}
+
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-device-width: 600px){
+    #header{
+        background-image: url(Portrait_NoBackground.png);
+    } 
+    .header-text{
+        margin-top: 150%;
+        font-size: 30px;
+    }
+    .header-text h1{
+        font-size: 60px;
+    }
+    nav {
+        padding: 30px 6%;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 45px;
+    }
+    nav ul {
+        background: #000000;
+        position: fixed;
+        top: 0;
+        right: -350px;
+        width: 350px;
+        height: 100vh;
+        padding-top: 50px;
+        padding-left: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        cursor: pointer;
+    }
 }

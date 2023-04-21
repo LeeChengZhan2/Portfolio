@@ -96,3 +96,9 @@
 .seeMorebtn:hover{
     background: #5a76a7;
 }
+
+@media only screen and (max-device-width: 600px){
+    #myPortfolio{
+        padding: 0;
+    }
+}
